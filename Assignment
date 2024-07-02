@@ -1,0 +1,1121 @@
+Assignment – 2
+Assignment – 2.1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        font-size: larger;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:black;
+    
+    }
+.intro{
+    text-align:left;
+    font-size:large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+p{
+    text-align: justify;
+    font-size: small;
+}
+#types{
+    text-align:left;
+    font-size:large;
+}
+.container{
+    background-color: aliceblue;
+    color: black;
+    font-style: italic;
+    font-weight: 100;
+}
+</style>
+<body>
+    <h1> Simple Webpage</h1>
+    <p class="intro"> Introduction to webpage </p>
+    <p> A web page is a document written in hypertext (also known as HTML) that you can see online, using a web browser. </p>
+    <p>Most web pages include text, photos or videos, and links to other web pages.</p>
+    <p id="types"> Types of websites </p>
+    <div class="container">
+        <h2>1.Static Webpages </h2>
+        <p>Static websites are those that consist of fixed webpages where the content remains unless manually updated. </p>
+        <a href="https://open.spotify.com/"> Reference link for Static Website</a>
+    </div>
+    <div class="container">
+        <h2>2.Dynamic Websites</h2>
+        <p>Dynamic websites, in contrast to static websites, employ server-side processing to generate web pages on-the-fly.</p>
+        <a href="https://www.google.com/"> Reference link for Dynamic Website</a>
+    </div>
+    
+</body>
+</html>
+
+
+
+Assignment- 2.2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assignment 2 </title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        background-color: aqua;
+        color: blue;
+    }
+    p{
+        text-align: justify;
+        font-size: small;
+    }
+    .intro{
+        text-align:left;
+        font-size:large;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 100;
+        background-repeat: repeat-x;
+    }
+    #types{
+        text-align:center;
+        font-size:large;
+        background-color: red;
+    }
+    .container{
+        background-color: rgb(11, 136, 246);
+        color: black;
+        font-style: italic;
+        font-weight: 100;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWSHATGad6t6hZKVs9F6UeqT6kekyhFno34A&s);
+        background-position: 100%;
+    }
+</style>
+<body>
+    <h1> Simple Webpage</h1>
+    <p class="intro"> Introduction to webpage </p>
+    <p> A web page is a document written in hypertext (also known as HTML) that you can see online, using a web browser. </p>
+    <p>Most web pages include text, photos or videos, and links to other web pages.</p>
+    <p id="types"> Types of websites </p>
+    <div class="container">
+        <h2>1.Static Webpages </h2>
+        <p>Static websites are those that consist of fixed webpages where the content remains unless manually updated. </p>
+        <a href="https://open.spotify.com/"> Reference link for Static Website</a>
+    </div>
+    <div class="container">
+        <h2>2.Dynamic Websites</h2>
+        <p>Dynamic websites, in contrast to static websites, employ server-side processing to generate web pages on-the-fly.</p>
+        <a href="https://www.google.com/"> Reference link for Dynamic Website</a>
+    </div>
+</body>
+</html>
+
+
+Assignment -2.3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+</head>
+<style>
+    h1{
+        font-size: larger;
+        text-align: center;
+    }
+    h2{
+      font-size: large;
+      color: blue;
+    }
+    body{
+        margin: 0%;
+        padding: 2px;
+        border: 1px;
+        background-color: aliceblue;
+    }
+    section{
+        background-color: aqua;
+        color: black;
+    }
+</style>
+<body>
+    <h1> Typography styles </h1><p>Typography is the art and technique of arranging type to make written language legible, readable and appealing when displayed.</p>
+<p> Examples of Typography </p>
+    <section>
+        <h2> FONT FAMILY </h2>
+        <div class="font-family" style="font-family: 'Courier New', Courier, monospace;">Courie</div>
+        <div class="font-family" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Arial</div>
+        <div class="font-family" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> libri</div>
+        <div class="font-family" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lu cida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Lucida Grande</div>
+        <div class="font-family" style="font-family: 'Times New Roman', Times, serif;">Times New Roman</div>
+    </section>
+    <section>
+        <h2> FONT STYLE </h2>
+        <div class="font-style" style="font-style: italic;"> italic</div>
+        <div class="font-style" style="font-style:oblique;"> oblique</div>
+        <div class="font-style" style="font-style: normal;">normal</div>
+    </section>
+    <section>
+        <h2>FONT SIZE</h2>
+        <div class="font-size" style="font-size: larger;">larger </div>
+        <div class="font-size" style="font-size: large;">large</div>
+        <div class="font-size" style="font-size: medium;"> medium</div>
+        <div class="font-size" style="font-size: small;">small</div>
+    </section>  
+</body>
+</html>
+
+
+
+Assignment-2.4
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+<style>
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 2;
+        padding: 10px;
+        margin: 0;
+    }
+    h1{
+        text-align: center;
+        font-size: xx-large;
+    }
+    section{
+        height: 160px;
+        width: 300px;
+        background-color: lightskyblue;
+        padding: 15px;
+        margin: 2px auto;
+        border: 4px;
+    }
+    .content-box{
+        box-sizing: content-box;
+    }
+    .border-box {
+        box-sizing: border-box;
+    }
+    .effect-box {
+        width: 300px;
+        height: 80px;
+        background-color: rgb(173, 235, 16);
+        padding: 15px;
+        border: 5px solid #32ff2b;
+        line-height: 20px;
+        box-sizing: border-box;
+    }
+</style>
+<body>
+    <h1> Box Model</h1>
+    <section>
+        <h2> Content Box </h2>
+        <div class="content-box"> It is nothing but the area which your content is displayed </div>
+
+    </section>
+    <section>
+        <h2> Border Box </h2>
+        <div class="border-box"> It tells the browser to account for any border and padding in the values like height and width  </div>
+    </section>
+    <section>
+         <h2> Effect Box</h2>
+         <div class="effect-box"> It demonstrates the effect of padding, border and margin </div>
+      </section>
+</body>
+</html>
+Assignment-2.5
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flexbox Basics </title>
+</head>
+<style>
+    h1{
+        text-align:justify;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        background-color: lightcoral;
+        width: 250px;
+        height: 250px;
+        margin: 0;
+        padding: 20px;
+        flex-direction:row;
+    }
+    body{
+        background-color: hsl(326, 57%, 95%);
+        align-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    .item{
+        background-color: aqua;
+        text-align: center;
+        flex: 4;
+        border-radius: 1px;
+        height: 50px;
+        width: 50px;
+        justify-content: center;
+    }
+</style>
+<body>
+    <h1> Flex-Box </h1>
+    <br>
+    <br>
+    <div class="flex">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+    </div>
+</body>
+</html>
+Assignment-2.6
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Advanced Flex </title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 2px;
+            padding: 10;
+        }
+        .container{
+            display: flex;
+            margin: 2px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .con-sec{
+            flex: 200px;
+            padding: 10px;
+            background-color: hsl(0, 100%, 98%);
+            border: 1px solid;
+        }
+        .flex{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-between;
+            align-content: space-around;
+        }
+        .item{
+            flex: 100px;
+            height: 100px;
+            display: flex;
+            background-color: antiquewhite;
+            color: black;
+            font-weight: bold;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-Box Layout </h1>
+    <div class="container">
+        <div class="con-sec">
+            <h2> Section-1</h2>
+            <div class="flex">
+                 <div class="item"> Item 1 </div>
+                 <div class="item"> Item 2</div>
+                 <div class="item"> Item 3</div>
+            </div> 
+        </div>
+        <div class="con-sec">
+            <h2> Section -2 </h2>
+            <div class="flex">
+                <div class="item"> Item 4</div>
+                <div class="item"> Item 5</div>
+                <div class="item"> Item 6</div>
+            </div>
+        </div>
+        <div class="con-sec">
+            <h2> Section-3 </h2>
+            <div class="flex">
+                <div class="item"> Item 7</div>
+                <div class="item"> Item 8</div>
+                <div class="item"> Item 9</div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
+Assignment- 2.7
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Basics</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-gap: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;   
+    }
+    .content{
+        background-color: aqua;
+        color: blue;
+        border: 2px;
+        padding: 5px;
+        margin: 1px;
+        text-align: center;
+        width: 500px;  
+    }
+    .side-content{
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        background-color: palevioletred;
+        color: pink;
+        display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 5px;
+        text-align: center;
+        display: block;
+    }
+    .main-content{
+      background-color: #2E7D32;
+      border-radius: 8px;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
+    }
+</style>
+<body>
+    <h1> Grid Basics </h1>
+    <div class="container">
+        <div class="content"> Content </div>
+        <br>
+        <div class="side-content"> side-content</div>
+        <div class="main-content">
+            <h2> Main Content </h2>
+            <div id="item 1"> Item 1</div>
+            <div id="item 2"> Item 2</div>
+            <div id="item 3"> Item 3</div>
+        </div>
+    </div> 
+</body>
+</html>
+Assignment -2.8
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Grid Layout Example</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(0, 99%, 53%);
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.grid-item {
+    background-color: hwb(122 12% 0%);
+    color: hsl(0, 97%, 56%);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 8px;
+}
+/* Styles for nested grid items */
+.nested-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    background-color: hsl(123, 92%, 53%);
+    border-radius: 8px;
+    padding: 10px;
+}
+.nested-grid-item {
+    background-color: rgb(250, 18, 184);
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+    color: hsl(0, 3%, 6%);
+    border-radius: 4px;
+}
+</style>
+<body>
+    <div class="grid">
+        <div class="grid-item">1</div>
+        <div class="grid-item nested-grid">
+            <div class="nested-grid-item">2.1</div>
+            <div class="nested-grid-item">2.2</div>
+            <div class="nested-grid-item">2.3</div>
+        </div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item nested-grid">
+            <div class="nested-grid-item">5.1</div>
+            <div class="nested-grid-item">5.2</div>
+            <div class="nested-grid-item">5.3</div>
+            <div class="nested-grid-item">5.4</div>
+        </div>
+        <div class="grid-item">6</div>
+    </div>
+</body>
+</html>
+Assignment- 2.9
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive Webpage </title>
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+.sidebar {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    text-align: center;  
+}
+.main-content {
+    flex: 1;
+}
+.grid-container {
+    display: grid; 
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+.grid-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+@media (min-width: 600px) {
+    .content {
+        flex-direction: row;
+    }
+    .sidebar {
+        display: block;
+        width: 25%;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .main-content {
+        width: 75%;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-item {
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .grid-item {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 1024px) {
+    .content {
+        max-width: 1400px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .grid-item {
+        font-size: 1.8rem;
+    }
+}
+</style>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+</head>
+<body>
+    <h2> Responsive Webpage </h2>
+    <div class="content">
+        <aside class="sidebar">Numbers</aside>
+        <main class="main-content">
+            <div class="grid-container">
+                <div class="grid-item">One</div>
+                <div class="grid-item">Two</div>
+                <div class="grid-item">three</div>
+                <div class="grid-item">Four</div>
+                <div class="grid-item">Five</div>
+                <div class="grid-item">Six</div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+Assignment -2.10
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: none; /* Hidden by default */
+}
+.main-content {
+    flex: 1;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+.grid-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+@media (min-width: 600px) {
+    .content {
+        flex-direction: row;
+    }
+    .sidebar {
+        display: block;
+        width: 25%;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .main-content {
+        width: 75%;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 1024px) {
+    .content {
+        max-width: 1400px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+</style>
+<body>
+    <h1> Responsive Images </h1>
+    <div class="content">
+        <aside class="sidebar">Sidebar</aside>
+        <main class="main-content">
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img 
+                        src="C:\536\sky-300.jpg" 
+                        srcset="C:\536\sky-300.jpg 300w,
+                                C:\536\sky-600.jpg 600w,
+                                C:\536\sky-900.jpg 900w,
+                                C:\536\sky-1200.jpg 1200w" 
+                        sizes="(max-width: 600px) 100vw,
+                               (max-width: 768px) 50vw,
+                               33vw" 
+                        alt=" Image 1 ">
+                </div>
+                <div class="grid-item">
+                    <img src="https://www.google.com/imgres?q=image&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F674010%2Fpexels-photo-674010.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-anjana-c-169994-674010.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&docid=B51x0PBR9KNzvM&tbnid=sKMM4eBjWSQEBM&vet=12ahUKEwik_v-DmoOHAxWbz6ACHaODAKUQM3oECGcQAA..i&w=2976&h=3968&hcb=2&itg=1&ved=2ahUKEwik_v-DmoOHAxWbz6ACHaODAKUQM3oECGcQAA-300.jpg" 
+                    srcset="https://www.google.com/imgres?q=image&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F674010%2Fpexels-photo-674010.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-anjana-c-169994-674010.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&docid=B51x0PBR9KNzvM&tbnid=sKMM4eBjWSQEBM&vet=12ahUKEwik_v-DmoOHAxWbz6ACHaODAKUQM3oECGcQAA..i&w=2976&h=3968&hcb=2&itg=1&ved=2ahUKEwik_v-DmoOHAxWbz6ACHaODAKUQM3oECGcQAA-300.jpg 300w,
+                            https://www.google.com/imgres?q=image&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F674010%2Fpexels-photo-674010.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-anjana-c-169994-674010.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&docid=B51x0PBR9KNzvM&tbnid=sKMM4eBjWSQEBM&vet=12ahUKEwik_v-DmoOHAxWbz6ACHaODAKUQM3oECGcQAA..i&w=2976&h=3968&hcb=2&itg=1&ved=2ahUKEwik_v-DmoOHAxWbz6ACHaODAKUQM3oECGcQAA-600.jpg 600w,
+                            https://www.google.com/imgres?q=image&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F674010%2Fpexels-photo-674010.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-anjana-c-169994-674010.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&docid=B51x0PBR9KNzvM&tbnid=sKMM4eBjWSQEBM&vet=12ahUKEwik_v-DmoOHAxWbz6ACHaODAKUQM3oECGcQAA..i&w=2976&h=3968&hcb=2&itg=1&ved=2ahUKEwik_v-DmoOHAxWbz6ACHaODAKUQM3oECGcQAA-900.jpg 900w,
+                            https://www.google.com/imgres?q=image&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F674010%2Fpexels-photo-674010.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-anjana-c-169994-674010.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&docid=B51x0PBR9KNzvM&tbnid=sKMM4eBjWSQEBM&vet=12ahUKEwik_v-DmoOHAxWbz6ACHaODAKUQM3oECGcQAA..i&w=2976&h=3968&hcb=2&itg=1&ved=2ahUKEwik_v-DmoOHAxWbz6ACHaODAKUQM3oECGcQAA-1200.jpg 1200w" 
+                    sizes="(max-width: 600px) 100vw,
+                           (max-width: 768px) 50vw,
+                           33vw" 
+                    alt=" Image 2">
+                </div> 
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+Assignment-2.11
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.box {
+    background-color: hsl(122, 87%, 49%);
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+}
+.static{
+    position: static;
+    background-color: aqua;
+}
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.absolute {
+    position: absolute;
+    top: 100px; 
+    right: 20px; 
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: #2E7D32; 
+}
+.sticky {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0; 
+    background-color: #81C784; 
+}
+</style>
+<body>
+    <div class="container">
+        <div class="box static">Static Position</div>
+        <div class="box relative">Relative Position</div>
+        <div class="box absolute">Absolute Position</div>
+        <div class="box fixed">Fixed Position</div>
+        <div class="box sticky">Sticky Position</div>
+    </div>
+</body>
+</html>
+Assignment-2.12
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    position: relative; 
+}
+.box1 {
+ background-color: red;
+    z-index: 1; 
+    top: 50px;
+    left: 50px;
+}
+.box2 {
+    background-color: green;
+    z-index: 4; 
+    top: 100px;
+    left: 100px;
+    position: absolute; 
+}
+.box3 {
+    background-color: blue;
+    z-index: 2; 
+    top: 150px;
+    left: 150px;
+}
+.box4{
+    background-color: hsl(182, 95%, 77%);
+    z-index: 3;
+    top: 100px;
+    right: 150px;
+    position: fixed;
+}
+</style>
+<body>
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+    <div class="box box3">Box 3</div>
+    <div class="box box4">Box 4</div>
+</body>
+</html>
+Assignment-2.13
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+</head>
+<style>
+    body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: hwb(194 54% 0%);
+    font-family: Arial, sans-serif;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 21, 21);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    gap: 10px;
+}
+.duration:hover {
+    width: 200px;
+    height: 200px;
+    transition-duration: 3s;
+}
+.timing-function:hover {
+    background-color: #e74c3c;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    width: 100px;
+    height: 100px;
+}
+.delay:hover {
+    transform: rotate(45deg);
+    transition-delay:0.5s;
+    width: 100px;
+    height: 100px;
+}
+</style>
+<body>
+    <div class="box">
+        <button class="duration"> button 1 </button>
+        <br>
+        <button class="timing-function"> button 2</button>
+        <br>
+        <button class="delay"> button 3</button>
+    </div>
+</body>
+</html>
+Assignment-2.14
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+</head>
+<style>
+    body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: hwb(194 54% 0%);
+    font-family: Arial, sans-serif;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 21, 21);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    gap: 10px;
+}
+.duration:hover {
+    width: 200px;
+    height: 200px;
+    transition-duration: 3s;
+}
+.timing-function:hover {
+    background-color: #e74c3c;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    width: 100px;
+  height: 100px;
+}
+.delay:hover {
+    transform: rotate(45deg);
+    transition-delay:0.5s;
+    width: 100px;
+    height: 100px;
+}
+</style>
+<body>
+    <div class="box">
+        <button class="duration"> button 1 </button>
+        <br>
+        <button class="timing-function"> button 2</button>
+        <br>
+        <button class="delay"> button 3</button>
+    </div>
+</html>
+</body>
+</html>
+Assignment-2.15
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+}
+.box, .circle,.square {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.box {
+    background-color: #3498db;
+}
+.circle {
+    background-color: #e74c3c;
+}
+.square{
+    background-color: aqua;
+}
+.animated-box {
+    animation: move 2s ease-in-out infinite alternate;
+    animation-delay: 0.5s;
+    animation-iteration-count: 5;
+}
+.animated-circle {
+    animation: spin 3s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+}
+.animated-square{
+    animation: move 2s ease-in-out infinite alternate;
+    animation-delay: 0.5s;
+    animation-iteration-count: 5;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(150px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+h1{
+    text-align: center;
+    border:  solid #f0f0f0 ;
+}
+</style>
+<body>
+    <h1> CSS ANIMATION </h1>
+    <div class="container">
+        <div class="box animated-box"></div>
+        <div class="circle animated-circle"></div>
+        <div class="square animated-square"></div>
+    </div> 
+</body>
+</html>
+Assignment-2.15
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transforms</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.transform-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 10px;
+    margin: 50px;
+    transition: transform 0.5s ease-in-out;
+}
+.transform-circle{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(264, 91%, 55%);
+    border-radius: 50%;
+    margin: 50px;
+    transition: transform 0.5s ease-in-out;
+}
+.transform-circle:hover{
+    transform:  translate skew ( 100px, -100px )(20deg 10deg) scale(1.2) rotate(90deg);
+    transition-duration: 3s;
+}
+.transform-box:hover {
+    transform: translate(50px, -50px);
+    transition-duration: 3s;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="box transform-box"></div>
+        <div class=" transform-circle"></div>
+    </div>
+</body>
+</html>
+
